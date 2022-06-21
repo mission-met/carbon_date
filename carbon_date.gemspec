@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency 'bundler', '~> 1.10'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '>= 11.1.2', '~> 11.1.2'
   spec.add_development_dependency 'simplecov', '>= 0.11.2', '~> 0.11.2'
   spec.add_development_dependency 'minitest-display', '>= 0.3.1', '~> 0.3.1'
@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'coveralls', '~> 0.8.13', '>= 0.8.13'
 
 
-  spec.add_dependency 'activesupport', '~> 4.2.6', '>= 4.2.6'
+  spec.add_dependency 'activesupport'
 end
